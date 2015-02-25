@@ -12,4 +12,9 @@ class HelloTest extends FunSuite {
     val result = sharedHello.Hello("Vova")
     assert("Hello, Vova" == result)
   }
+
+  test("Hello works 2") {
+    val result = sharedHello.Hello("Dima")
+    assert("Hello, Dima" == result)
+  }
 }
